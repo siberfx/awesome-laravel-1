@@ -301,6 +301,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [MailThief](https://github.com/tightenco/mailthief) - A fake mailer for Laravel applications that makes it easy to test mail without actually sending any emails. \[07/07/2016\]
 - [PDF Laravel 5](https://github.com/vsmoraes/pdf-laravel5) - Package wrapper for [DOMPDF](http://dompdf.github.io/) HTML-to-PDF conversion library. \[08/16/2015\] 
 - [PHP Curl](https://github.com/anlutro/php-curl) - A simple PHP wrapper class for [cURL](http://curl.haxx.se/), including Laravel [service provider](http://laravel.com/docs/ioc#service-providers) and facade.
+- [Prestissimo](https://github.com/hirak/prestissimo) - [Composer](https://getcomposer.org/) plugin which allows parallel downloads (via [cURL](https://curl.haxx.se/)) to speed up installation of packages. \[05/20/2019\]
 - [Quarx](https://quarx.info/) - [Open-source](https://github.com/YABhq/Quarx/) package to add CMS capabilities to your Laravel application. \[05/04/2016\]
 - [Rapyd](https://github.com/zofe/rapyd-laravel) - A Laravel 4 package for building simple CRUD functions using data grids (tables) and forms.
 - [Registry Manager](https://github.com/Torann/laravel-registry) - Complete package for managing application configuration settings in database with cache support for better performance. \[05/20/2015\]
@@ -671,6 +672,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Andrea Sartori](http://blog.andreasartori.me/en/)
 - [Andreas Lutro](http://www.lutro.me/)
 - [Andy Brudtkuhl](https://brudtkuhl.com/topics/laravel/) \[04/02/2017\]
+- [Andy Carter](https://andy-carter.com/) \[03/30/2019\]
 - [Andy Fleming](http://andyfleming.com/articles-by-topic/lumen/) \[07/16/2015\]
 - [Andy Hinkle](https://medium.com/andyhinkle91) \[07/23/2018\]
 - [Anytch.com](http://anytch.com/category/laravel/) \[09/02/2016\]
@@ -686,6 +688,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Barry van Veen](https://barryvanveen.nl/) \[12/04/2016\]
 - [Barry vd. Heuvel](http://barryvdh.nl/)
 - [Belar Design](http://belardesign.com/category/dev/laravel/)
+- [Ben Sampson](https://sampo.co.uk/blog) \[05/20/2019\]
 - [Ben Smith](http://bensmith.io/) \[07/07/2015\]
 - [Benjamin Kohl](http://benjaminkohl.com/)
 - [Bhavyanshu Parasher](https://bhavyanshu.me/tags.html#laravel-ref) \[04/28/2015\]
@@ -882,6 +885,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Matthew T. Brown](http://ryantbrown.io/tag/laravel/)
 - [Maurizio Bonani](http://blog.mauriziobonani.com/tags/#laravel) \[09/02/2016\]
 - [Menara Solutions](https://blog.menara.com.au/tag/laravel/) \[01/07/2016\]
+- [Mera Mustaqbil](https://meramustaqbil.com/category/laravel/) \[05/20/2019\]
 - [Merix Studio](http://www.merixstudio.com/blog/category/code-tools/) \[08/17/2017\]
 - [Metric Loop](https://metricloop.com/blog/tag/Laravel) \[09/02/2016\]
 - [Michael Brooks](http://michaelbrooks.co.uk/tag/laravel)
