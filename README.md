@@ -28,6 +28,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 
 - [Laravel NestedSet](https://github.com/lazychaser/laravel-nestedset) - An implementation of a tree data structure in a relational database. \[03/16/2017\]
 - [HashIDs](https://github.com/mitchellvanw/hashids) - Laravel wrapper for the [HashIDs](http://hashids.org/) tool to generate short, unique hashes for any integer (e.g., surrogate key ID).
+- [Laravel Hashid](https://github.com/ElfSundae/laravel-hashid) - Obfuscate your data by generating reversible, non-sequential, URL-safe identifiers.
 
 ### Authentication/Security
 - [Acacha Laravel Social](https://github.com/acacha/laravel-social) - OAuth Social Login/Register implementation with Github, Facebook, Google, Twitter... using Laravel Socialite and (optionally) [AdminLTE Laravel package](https://github.com/acacha/adminlte-laravel) . \[23/02/2017\]
@@ -43,6 +44,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [jwt-auth](https://github.com/tymondesigns/jwt-auth) - [JSON Web Token](http://en.m.wikipedia.org/wiki/JSON_Web_Token) authentication package for Laravel. \[06/11/2015\]
 - [Laravel ACL](https://github.com/kodeine/laravel-acl) - Lightweight role-based permissions system for Laravel 5's built-in Auth system. \[06/15/2016\]
 - [Laravel Impersonate](https://github.com/404labfr/laravel-impersonate) - A package to authenticate as one of your users. [03/08/2016]
+- [LaraPersonate](https://github.com/SupianIDz/LaraPersonate) - Login as a different user quickly.
 - [Laravel Password Exposed Validation Rule](https://github.com/DivineOmega/laravel-password-exposed-validation-rule) - Adds validation rule to Laravel to check if user password has been compromised in data breach. \[06/25/2018\]
 – [Laravel 5 Very Basic Auth](https://github.com/olssonm/l5-very-basic-auth) – HTTP Basic Authentication without the need for a database \[09/07/2017\]
 - [LDAP-Auth](https://github.com/krenor/ldap-auth) - Very basic read-only LDAP authentication driver for Laravel 5.1+. \[11/23/2015\]
@@ -106,11 +108,14 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Skeletor](https://github.com/pixelfusion/skeletor) - Interactive shell tool for creating a new Laravel/Lumen project that automates several common steps. Learn more [here](https://medium.com/pixel-fusion/skeletor-the-laravel-skeleton-generator-f02a14ff2b4b). \[10/05/2017\]
 - [Support](https://github.com/iolson/support) - Adds some nice features and other third-party packages to your Laravel installation. \[10/05/2015\]
 - [Turtle](https://github.com/kjdion84/turtle) - Laravel 5.5 package with front & backend scaffolding including a CRUD generator, auth integration, roles, permissions, contact forms, reCAPTCHA, activity logs, demo mode, user timezones, AJAX CRUD/validation, Bootstrap 4, DataTables, & more. \[09/18/2017\]
+- [UIkit UI preset](https://github.com/Torrix/laravel-ui-uikit) - UI preset for Laravel 6 that bundles UIkit and Vue.js \[09/16/2019\]
 - [Watts](https://github.com/YABhq/Watts) - Custom configuration with tools for developing microservices using Lumen. \[05/10/2016\]
+- [Wave](https://github.com/thedevdojo/wave) - An open-source Software as a Service (SaaS) Starter Kit ([Laravel Spark](https://spark.laravel.com/) alternative) \[04/14/2021\]
 
 ### Database/Eloquent/Models
 - [Analogue](https://github.com/analogueorm/analogue) - Intuitive, fluent data mapper ORM for Laravel and PHP. \[07/15/2015\]
 - [Apify](https://github.com/ConsoleTVs/Apify) - API generator for Laravel that allows JSON access to any model/table. \[01/07/2017\]
+- [Attribute Events](https://github.com/jpkleemans/attribute-events) - Fire events on attribute changes of your Eloquent model. \[07/09/2020\]
 - [belongsToThrough](https://github.com/znck/belongs-to-through) - Adds trait to Eloquent models to support ''belongsToThrough'' relationship. \[10/21/2015\]
 - [Computed Properties for Eloquent](https://github.com/n7olkachev/laravel-computed-properties) - Improved accessors for Laravel 5.4+ models. \[08/22/2017\]
 - [CRUD Generator](https://github.com/appzcoder/crud-generator) - Simple Artisan command to generate CRUD commands for database interaction of your model in Laravel 5. \[08/30/2015\]
@@ -150,6 +155,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [ODBC Driver](https://github.com/garylocke/odbc-driver) - Laravel 5.x package which provides support for using **any** database via [ODBC](https://en.m.wikipedia.org/wiki/Open_Database_Connectivity). \[07/20/2015\]
 - [PHP Eloquent Repository](https://github.com/nilportugues/php-eloquent-repository) - Repository package for Eloquent for use with Eloquent or plain PHP. \[02/15/2016\]
 - [Query Dumper](https://github.com/sarfraznawaz2005/querydumper) - Output query SQL and results to your view page for debugging. \[09/18/2017\]
+- [](https://github.com/reliese/laravel) - Reliese Laravel Model Generator provides some convenient code-generation capabilities for Laravel models and corresponding database tables. \[04/14/2021\]
 - [Revisionable](https://github.com/VentureCraft/revisionable) - Adds simple (and, optionally, [trait](http://php.net/manual/en/language.oop5.traits.php)-based) support for keeping revision history of models in your Laravel applications.
 - [Rinvex Repository](https://github.com/rinvex/repository) - Comprehensive and well-documented [repository](https://www.sitepoint.com/repository-design-pattern-demystified/) package (specifically [Active Repository](https://blog.omranic.com/active-repository-is-good-awesomely-usable-6991cfd58774) pattern) for abstracting storage/persistence. \[08/31/2016\]
 - [Searchable](https://github.com/nicolaslopezj/searchable) - a trait for Laravel 4.2+ and Laravel 5.0 that adds a simple search function to Eloquent Models to prioritize fields for searching. \[12/04/2016\]
@@ -187,6 +193,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Laravel Feature Flag/Switch](https://github.com/jonathan-bird/feature-switch) - Simple tool for adding [feature flag](https://en.wikipedia.org/wiki/Feature_toggle) capability to your Laravel applications. \[06/16/2016\]
 - [Laravel IDE Helper](https://github.com/barryvdh/laravel-ide-helper) - Adds auto-complete support for Laravel syntax to a variety of IDEs and text editors, including [Aptana Studio](http://aptana.com/), [Eclipse](http://eclipse.org/), [PHP Storm](http://www.jetbrains.com/phpstorm/), and more.
 - [Laravel Identify](https://github.com/unicodeveloper/laravel-identify) - Package to identify client configuration, such as browser, device, operating system and more. \[01/07/2017\]
+- [Laravel iDoc](https://github.com/ovac/idoc) - Automatically generate interactive API documentation from your existing Laravel routes. Take a look at the [example documentation](https://www.ovac4u.com/idoc/live). Inspired by [Laravel API Documentation Generator](mpociot/laravel-apidoc-generator) \[04/30/2019\]
 - [Laravel Inspector](https://github.com/lsrur/inspector/) - Comprehensive debugging and profiling tool with full logging capabilities that outputs errors and logged actions to browser JavaScript console. \[08/03/2016\]
 - [Laravel Log Viewer](https://github.com/rap2hpoutre/laravel-log-viewer) - Add on which allows you to view your Laravel 4.2/5.0 log file within the application itself by opening the `logs` (or other) route.
 - [Laravel Make-Me](https://github.com/HydrefLab/laravel-make-me) - Extendable interactive Artisan `make` command. \[03/03/2018\]
@@ -216,6 +223,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [TNT Search](https://github.com/teamtnt/tntsearch) - Full-featured full-text search engine. \[10/01/2016\]
 - [Translation.io for Laravel](https://github.com/translation/laravel) - Package that integrates support for [Translation.io](https://translation.io/) to allow localization of Laravel applications using [GetText](https://www.gnu.org/software/gettext/). \[05/01/2018\]
 - [Laravel UI http logger](http://apideveloper.io) - Laravel package to log every request/response app handled and UI to analyze it
+- [Bugphix](https://github.com/bugphix/bugphix-laravel) - Capture and monitor detailed error logs with nice dashboard and UI
 
 ### E-commerce
 - [Aimeos](http://aimeos.org/project/laravel-shop-package/) - Complete e-commerce/web shop package with support for product catalogs, shopping, checkout, payment, and order management. \[04/29/2015\]
@@ -225,9 +233,11 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Grafite Commerce](https://github.com/GrafiteInc/Commerce) - Full-fledged e-commerce package that includes support subscriptions, electronic downloads, and more. \[06/25/2018\]
 - [LaraCart](https://github.com/lukepolo/laracart/) - Fully-featured shopping cart package for Laravel. \[03/30/2017\]
 - [Laragento](https://github.com/develpr/laragento) - A Laravel + [Magento](http://magento.com/) mashup, for directly accessing Magento data via RESTful API provided by Laravel. \[10/12/2015\]
+- [Laravel PayPal](https://github.com/srmklive/laravel-paypal) - Laravel package for PayPal payment processing, which can also be used outside of Laravel. \[07/14/2020\]
 - [Laravel PayPal Payment](https://github.com/xroot/laravel-paypalpayment) - Package for processing credit card or PayPal account payments using [PayPal REST API](https://developer.paypal.com/docs/api/).
 - [Mage2](https://github.com/mage2/laravel-ecommerce) - Laravel e-commerce package with built-in Paypal support. \[12/16/2016\]
 - [Paypal IPN](https://github.com/logicalgrape/paypal-ipn-laravel) - Package for a listener and processor for [Paypal IPN](https://developer.paypal.com/docs/classic/ipn/gs_IPN/) responses.
+- [SCart](https://s-cart.org/) - Full-featured e-commerce platform intended to be easy for non-technical users to install and maintain, built on Laravel. \[09/11/2020\]
 - [Vanilo](https://vanilo.io/) - Basic (catalog, clients, cart, orders) e-commerce toolkit/framework for Laravel [built along the principles of Laravel itself](https://medium.com/@attilafulop/e-commerce-platform-for-laravel-c09a2bcfe8c6). \[08/17/2017\] 
 
 ### GIS/Mapping
@@ -287,6 +297,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Laravel Medium Editor](http://www.codeforest.net/laravel-wysiwyg-editor) - Laravel package for using the [Medium WYSIWYG JavaScript Editor](http://daviferreira.github.io/medium-editor/) with Laravel 4.x.
 - [Laravel Menu](http://lavary.github.io/laravel-menu/) - Package that provides fluent, Laravel-esque method for building menus.
 - [Laravel Menu (Murze)](https://github.com/spatie/laravel-menu) - Laravel package for generating hierarchical HTML menus for your application. \[03/28/2016\]
+- [Laravel Multi Domain](https://github.com/gecche/laravel-multidomain) - A Laravel 5 & 6 extension for using a laravel application on a multi domain setting by usign multi .env files. \[25/01/2020\]
 - [Laravel 5 Nestable](https://github.com/atayahmet/laravel-nestable) - Provides trait support for nestable/hierarchical menus and categories in Laravel. \[11/02/2016\]
 - [Laravel Options](https://github.com/appstract/laravel-options) - Provides a key-value store table named `options` for storing application configuration data. \[03/20/2017\]
 - [Laravel Paginate Route](https://github.com/spatie/laravel-paginateroute) - Extension to use built-in [Laravel paginator](http://laravel.com/docs/pagination) feature without the query string. \[07/12/2015\]
@@ -313,6 +324,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Tuxedo](https://github.com/tomirons/tuxedo) - send transactional emails with Laravel's Mail classes, with the templates already done for you. \[01/14/2017\]
 - [Virtuoso](https://github.com/coderabbi/virtuoso) - Extension to the built-in [View Composers](http://laravel.com/docs/4.2/responses#view-composers) functionality that provides composability of composers themselves.
 - [Laravel TinyPNG API Support](https://github.com/yasmuru/ys-tinify-laravel) - Tinify API support with laravel
+- [Laravel Integer To English](https://github.com/sujalpatel2209/IntegerToEnglish) - Convert Integer to English Word \[26/10/2019]\
 
 ### JavaScript Framework Support
 - [Laravel and AngularJS](https://github.com/danielschmitz/laravel_and_angularjs_codes) - Source code to go with [book](https://leanpub.com/laravel_and_angularjs) on building applications with Laravel and [AngularJS](https://angularjs.org/). \[09/02/2016\]
@@ -345,12 +357,14 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [DreamFactory](https://github.com/dreamfactorysoftware/dreamfactory) - An open-source REST API backend for mobile and web applications built on Laravel. \[11/19/2016\]
 - [Dingo API](https://github.com/dingo/api) - Toolkit for building RESTful API with Laravel including API versioning, rate limiting, error handling, and more.
 - [Laravel API Boilerplate (JWT Edition)](https://github.com/francescomalatesta/laravel-api-boilerplate-jwt) - Package for API boilerplate to build REST API/web service quickly, including support for JWT. \[04/23/2018\]
+- [Laravel API Test Helpers](https://github.com/stephenjude/api-test-helper) - A collection of helper methods for testing and debugging API endpoints. \[11/17/2020\]
 - [Laravel GraphQL](https://github.com/studio-net/laravel-graphql) - Laravel package wrapper for [GraphQL PHP](https://github.com/webonyx/graphql-php) to support use of [GraphQL](https://facebook.github.io/graphql/) for data access with Eloquent. \[08/03/2017\]
 - [Laravel JSON API](https://github.com/cloudcreativity/laravel-json-api) - Package wrapper for standardizing JSON API requests/responses according to [JSON API](http://jsonapi.org/). \[04/12/2017\]
 - [Laravel Scene](https://github.com/AeonAxan/laravel-scene) - Transformer which converts Laravel models into API responses. \[12/05/2017\]
+- [Laravel OpenAPI](https://github.com/jeandormehl/openapi-gen) - Laravel wrapper for OpenAPI Documentation for [OpenApi/Swagger](https://github.com/OAI/OpenAPI-Specification). \[23/10/2019\]
 
 ### Views
-- [Themevel](https://github.com/shipu/themevel) - Theme and Assets Management for Laravel 5
+- [Themevel](https://github.com/shipu/themevel) - Theme and Assets Management for Laravel 5+
 - [AmaranJS Laravel Package](https://github.com/hakanersu/amaran-laravel) - Package wrapper for Laravel support to use excellent [AmaranJS notification jQuery plugin](http://ersu.me/amaranjs-en). \[07/13/2015\]
 - [Bones Flash](https://github.com/GeneaLabs/bones-flash) - Enhanced version of built-in "flash" messages/notifications for Laravel, which includes modal popups and various levels of message. \[03/26/2017\]
 - [Cursor Pagination](https://github.com/juampi92/cursor-pagination) - Pagination package to return results based on cursor value, which always returns same values. \[03/03/2018\]
@@ -370,6 +384,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Laravel Form Builder](https://github.com/kristijanhusak/laravel-form-builder) - Package for constructing HTML forms using PHP classes, including support for Laravel [form-model binding](http://laravel.com/docs/4.2/html#form-model-binding).
 - [Laravel Form Validator](https://github.com/GrandadEvans/laravel-form-validator) - An extension of [way/generators](https://github.com/JeffreyWay/Laravel-Generators) for setting up form validators.
 - [Twitter Bootstrap Forms](https://github.com/boxfrommars/rutorika-laravel-html) - Custom form controls based on Twitter Bootstrap. \[03/09/2016\]
+- [Laraform](https://github.com/laraform/laraform) - Advanced form builder for Vue.js with Laravel support.
 
 ### WordPress Integration
 - [Blade for Wordpress](https://github.com/MikaelMattsson/blade) - Wordpress plugin that allows use of Blade syntax. \[07/16/2015\]
@@ -426,19 +441,21 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [LaravelSnippets.com](http://laravelsnippets.com/) - A repository of useful code snippets for Laravel PHP framework.
 - [Laravel Tricks](http://www.laravel-tricks.com/) - Code snippets, best practices, and tips for Laravel development.
 - [The Laravel Podcast](http://www.laravelpodcast.com/) - Brings you Laravel and PHP development news and discussion hosted by Matt Stauffer. \[04/12/2015\]
+- [LaraShout](http://www.larashout.com/) - Helps you to learn Laravel, PHP, JavaScript and CSS. Enhance you web development skills and succeed.
 
 ### Applications Built with Laravel
 - _[External List of Laravel Applications](https://github.com/unicodeveloper/awesome-opensource-webapps#laravel)_ \[03/28/2016\]
 - _[Another Directory of Laravel Applications](https://devpost.com/software/built-with/laravel) \[12/31/2016\]
 - [92five](http://92fiveapp.com/) - Open-source, self-hosting project management application.
-- [A1Pager](https://a1pager.com/) - Free, online tool for creating a one-page web site with no coding. \[07/16/2018\]
-- [AccountsPortal](http://www.accountsportal.com/) - Hosted online accounting application with support for invoicing, books and accounts. \[04/20/2015\]
+- [AllDocs](https://alldocs.app/) - Free, [open-source](https://github.com/ueberdosis/alldocs.app) online tool for text document conversion between multiple formats based on [Pandoc](https://pandoc.org/). \[11/17/2020\]
 - [AgoraKit](https://github.com/philippejadin/agorakit) - Full-featured, open-source groupware platform for citizens' initatives, including calendar, online discussion forums, and more. \[08/18/2017\]
 - [Alpha Coders](https://alphacoders.com/) - Social media site for content creators (mainly graphics) to share their creations. \[08/20/2017\]
+- [Amila CMS](https://github.com/AlexStack/Laravel-CMS) - Simple Bootstrap Laravel CMS for any EXISTING or new Laravel 6 website.  \[09/11/2019\]
 - [Asgard CMS](http://asgardcms.com/) - CMS built with Laravel with goals of modularity, multi-language support, and ease of installation.
 - [Attendize](https://www.attendize.com/) - Free, [open-source](https://github.com/Attendize/Attendize), self-hosted ticket sales and event management platform. \[03/09/2016\]
 - [Author's Republic](https://www.authorsrepublic.com/) - E-commerce site for authors to sell audio books. \[10/20/2015\]
 - [BarChart.com](https://www.barchart.com/) - Portal for financial experts and businesses to get the latest market data for US, UK, Australia and Canadian stock markets. \[08/20/2017\]
+- [Bible Super Search](https://sourceforge.net/projects/biblesuper/) - Bible study tool with advance search capabilities, includes API and GUI front-end. \[04/11/2020\]
 - [Bombsite](https://bombsite.io/) - Free, online web site builder built with Laravel. \[04/23/2018\]
 - [Bootsnipp](http://bootsnipp.com/) - Element gallery, playground and code snippets for Bootstrap framework.
 - [BootstrapCMS](https://github.com/BootstrapCMS/CMS) - Comprehensive CMS built with Laravel using [Sentry](https://cartalyst.com/manual/sentry/) for user management/authentication.
@@ -456,6 +473,8 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Colorsublime](http://colorsublime.com/) - Directory of [Sublime Text](http://www.sublimetext.com/) themes along with a plugin to simplify installation of those themes.
 - [Confomo](https://confomo.com/) - Simple, [open-source](https://github.com/mattstauffer/confomo) tool for keeping track of contacts that you meet at conferences. \[07/27/2016\]
 - [Commentum.io](https://commentum.io/) - A Reddit clone built with Laravel that scores entries based on "momentum" from events like views, comments, etc. \[08/31/2015\]
+- [Crater](https://craterapp.com/) - An [open-source](https://github.com/bytefury/crater/) invoicing application for freelancers and small businesses. \[12/31/2020\]
+- [Daybyday CRM](https://github.com/Bottelet/DaybydayCRM) - Full-featured CRM application with tasks and lead management, role-based settings, document attachements, and more (formerly known as Flarepoint CRM). \[08/26/2020\]
 - [Decoy CMS](https://github.com/BKWLD/decoy) - Full-featured CMS with support for sharing models with other applications. \[03/15/2017\]
 - [Devise CMS](http://devisephp.com/) - Open-source CMS built on Laravel intended to be used for both small and large CMS needs. \[09/29/2015\]
 - [DevLeaks](http://devleaks.com/) - Web development news aggregator for tutorials, tools, and other resources of interest to developers. \[08/03/2015\]
@@ -464,7 +483,6 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Earthquake Stream](https://earthquake.stream/) - Real-time feed of earthquakes reported by USGS to [demonstrate](https://medium.com/@piesse/laravel-horizon-and-earthquake-stream-d67a794bc9b5) Laravel [Horizon queue service](https://horizon.laravel.com/). \[09/21/2017\]
 - [Easy Decision Maker](http://easydecisionmaker.com/) - Online tool for creating multiple-choice questions. \[10/21/2015\]
 - [Filegr.am](http://filegr.am/) - Share files up to 1GB for 24 hours with no sign up or installation. \[07/31/2015\]
-- [Flarepoint CRM](https://github.com/Bottelet/Flarepoint-crm) - Full-features CRM application with tasks and lead management, role-based settings, document attachements, and more. \[06/18/2016\]
 - [Flarum](http://flarum.org/) - Open-source forum software intended to make online discussions simple, fun, and fast. \[08/28/2015\]
 - [Flashtag CMS](https://flashtag.org/) - [Open-source](https://github.com/flashtag/cms) simple CMS and blogging platform built with Laravel. \[04/12/2016\]
 - [Food Zoo Menu](http://www.umt.edu/dining/foodzoomenu) - University cafeteria menu listings using Laravel REST API and AngularJS. \[05/09/2016\]
@@ -484,6 +502,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Koel](http://koel.phanan.net) - A simple, [open-source](https://github.com/phanan/koel) web-based personal audio streaming service (i.e., [Spotify](https://www.spotify.com/) clone) written in [Vue.js](http://vuejs.org/) on the client side and Laravel on server side. \[12/14/2015\]
 - [Kyle](https://github.com/laravelista/kyle) - Monthly billing/invoicing application built on Laravel. \[06/18/2016\]
 - [LaraAdmin](http://laraadmin.com/) - [Open-source](https://github.com/dwijitsolutions/laraadmin) CRM platform that features CRUD generation, module and metadata management, media file (image, multimedia, etc.) management, and built-in code editor (based on [Ace Code Editor](https://ace.c9.io/)). \[08/30/2016\]
+- [LaraEstimate](https://github.com/TiagoSilvaPereira/laraestimate) - Complete web design/development estimating and quoting tool built with Laravel and [Vue.JS](https://vuejs.org/). \[07/14/2020\]
 - **[Laravel Open Source Projects](https://github.com/goodnesskay/Laravel-Open-Source-Projects)** - Large list of open-source Laravel projects, including flags for projects which can be used for tutorials. \[06/27\2017\]
 - [Laravel Site](https://github.com/iZaL/laravel-site) - A custom CMS and event management platform built on Laravel 4.
 - [Lavalite](http://www.lavalite.org/) - Multilingual CMS built on Laravel 4 and Bootstrap 3.
@@ -491,11 +510,15 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Leesmee](https://leesmee.com/) - Dutch language social news site. \[09/17/2018\]
 - [Less Than Threes](https://lessthanthrees.com/) - Site to quickly and easily share collections of things you enjoy, such as movies, books, etc. (Source code [here](https://github.com/snipe/lessthanthrees).) \[08/19/2017\]
 - [Lightweight Hiker](https://lwhiker.com/) - Site to search for used hiking/backpacking gear. \[02/15/2016\]
+- [LinkAce](https://www.linkace.org/) - [Open-source](https://github.com/Kovah/LinkAce) self-hosted web bookmark tool built with Laravel and Vue.js with automatic backups. \[12/17/2020\]
 - [Listymail](https://listymail.com/) - Free online tool for email distribution lists. \[02/15/2016\]
+-**- [Php Coding Stuff](https://www.phpcodingstuff.com/)** - Site to Search any type of laravel project.
 - **[Made with Laravel](https://madewithlaravel.com/)** - Online gallery of applications and tools built with Laravel. \[06/25/2018\]
+- [MailCare](https://mailcare.io/) - Open source disposable email address service. \[04/24/2020\]
 - [Makers Cabin](https://makerscabin.com/) - Learn full-stack web development using Laravel, Bootstrap, and other popular technologies. \[08/16/2017\]
 - [Mascots](https://mascots.stevil.co/) - An [open-source]() database of mascots of various teams and organizations. \[11/19/2016\]
 - [Maghnatis](http://maghnatis.com/) - Open-source Reddit clone forum application built with Laravel.  (Source code available [here](https://github.com/Halnex/laravel-reddit).) \[10/27/2015\]
+- [Microweber](https://github.com/microweber/microweber) - Open-source drag-and-drop website builder and content management system (CMS) with built-in e-commerce features. \[04/13/2021\]
 - [Monica](https://monicahq.com/) - [Open-source](https://github.com/monicahq/monica) personal CRM for helping you keep track of your friends and family. \[10/02/2017\]
 - [New Movies Coming Out](https://newmoviescomingout.us/) - Directory of US movie releases, including option for weekly e-mail notification. \[04/23/2018\]
 - [OpenDominion](https://opendominion.net/) - [Open-source](https://github.com/WaveHack/OpenDominion), free online text-based strategy game in a medieval fantasy setting where you control a nation ('dominion'). \[11/06/2017\]
@@ -578,7 +601,8 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Anvil CMS](https://github.com/loic-sharma/Anvil) - A basic CMS built on top of Laravel 4 with other components.
 - [Arcanesoft CMS](https://github.com/ARCANESOFT/ARCANESOFT) - CMS built on Laravel with multiple packages that can be used independently. \[12/18/2015\]
 - [Auto-Generating Gallery](https://github.com/martindilling/auto-generating-gallery) - Basic image gallery application with support for auto-generation of thumbnails, albums, and more.
-- [BookStack](https://github.com/ssddanbrown/BookStack) - A simple, self-hosted, easy-to-use, wiki-like platform and [Confluence](https://www.atlassian.com/software/confluence/) alternative for organising and storing information. \[01/02/2016\]
+- [Barbapappa](https://github.com/timvisee/barbapappa) Bar management application to manage transactions and inventory. \[11/01/2020\]
+- [BookStack](https://github.com/BookStackApp/BookStack) - A simple, self-hosted, easy-to-use, wiki-like platform and [Confluence](https://www.atlassian.com/software/confluence/) alternative for organising and storing information. \[01/02/2016\]
 - [Bookymark](https://github.com/mikedfunk/bookymark) - Basic web site bookmarking application built with Laravel 4, including full tests. \[04/28/2015\]
 - [CocoPass](https://github.com/Elvenisboy/CocoPass) - Password management system similar to [LastPass](https://lastpass.com/) build with Laravel 5.3. \[09/13/2016\]
 - [Collejo](https://github.com/codebreez/collejo) - Comprehensive ERP platform for schools and other education institutions built with Laravel. \[03/26/2017\]
@@ -692,6 +716,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Ben Smith](http://bensmith.io/) \[07/07/2015\]
 - [Benjamin Kohl](http://benjaminkohl.com/)
 - [Bhavyanshu Parasher](https://bhavyanshu.me/tags.html#laravel-ref) \[04/28/2015\]
+- [Bobby Iliev](https://blog.bobby.sh/) \[04/14/2021\]
 - [Boris Strahija](http://creolab.hr/category/blog/)
 - [Bosnadev](https://bosnadev.com/)
 - [Brian Retterer](http://brianretterer.com/) \[10/02/2015\]
@@ -728,6 +753,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Dan Course](http://www.dancourse.co.uk/category/tech/laravel/) \[08/16/2015\]
 - [Daniel Li](http://blog.danyll.com/) \[04/20/2015\]
 - [Darwin Biler](http://www.darwinbiler.com/category/php/laravel/) \[04/14/2015\]
+- [David Carr](https://dcblog.dev/) \[07/13/2020\]
 - [David Hemphill](http://davidhemphill.com/blog/) \[07/09/2015\]
 - [David Frame](http://www.cryst.co.uk/tag/laravel/) \[02/14/2017\]
 - [David Piesse](https://medium.com/@piesse) \[07/24/2017\]
@@ -736,6 +762,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Dennis Decoene](http://avidsoftware-be.github.io/) (German/[English translation](https://translate.google.com/translate?sl=auto&tl=en&u=http%3A%2F%2Favidsoftware-be.github.io%2F)) \[09/10/2015\]
 - [Dennis Smink](https://medium.com/@dennissmink) \[09/13/2018\]
 - [Designing Lives](http://designinglives.net/) \[07/07/2015\]
+- [DevDojo](https://devdojo.com/t/laravel) \[04/13/2021\]
 - [DevMarketer](http://devmarketer.io/learn/category/laravel/) \[09/24/2016\]
 - [Dev Metal](http://www.dev-metal.com/tag/laravel/)
 - [Dev Problems](http://www.devproblems.com/category/laravel/) \[05/03/2016\]
@@ -849,6 +876,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Laratips](https://laratips.io/) \[07/07/2016\]
 - [Laravel & VueJS](https://www.laravel-vuejs.com/) \[10/05/2017\]
 - [Laravel 5 Tutorials](https://medium.com/laravel-5-tutorials) \[06/01/2015\]
+- [Laravel Article](https://laravelarticle.com) \[10/20/2020\]
 - [Laravel Coder](http://sheepy85.wordpress.com/)
 - [Laravel Daily](http://laraveldaily.com/) \[07/10/2015\]
 - [Laravel Factory](https://laravelfactory.com/blog) \[04/23/2018\]
@@ -875,6 +903,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Marco Aurelio Deleu](https://hackernoon.com/@deleugpn) \[08/28/2017\]
 - [Mark Van Eijk](http://markvaneijk.com/)
 - [Martin Bean](http://martinbean.co.uk/blog/)
+- [Martin Betz](https://martinbetz.eu/articles/) \[01/03/2020\]
 - [Marty Thomas](https://martythomas.svbtle.com/) \[09/02/2016\]
 - [Mateus Guimaraes](http://mguimaraes.co/) \[01/16/2016\]
 - [Matt Sparks](http://mattsparks.com/blog/) \[07/13/2015\]
@@ -953,6 +982,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [Simon Hamp](https://medium.com/@simonhamp) \[02/08/2016\]
 - [Simple Developer](http://simpledeveloper.com/category/laravel-framework/)
 - [Simplest Web](https://simplestweb.in/blog?tag=laravel) \[12/01/2018\]
+- [Stephen Jude](https://stephenjude.me/) \[07/06/2020\]
 - [Sky Blue Sofa (Dave Rogers)](http://skybluesofa.com/blog/) \[01/07/2017\]
 - [Skyshi Digital](https://medium.com/skyshidigital/tagged/laravel) \[07/26/2017\]
 - [Slashnode](http://slashnode.com/blog/)
@@ -960,6 +990,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [SOFTonSOFA](http://softonsofa.com/)
 - [Stampede Design](http://constructs.stampede-design.com/tag/laravel/) \[08/15/2016\]
 - [Stefan Zweifel](https://stefanzweifel.io/posts/) \[07/22/2016\]
+- [Stephen Jude](http://stephenjude.me/) \[11/17/2020\]
 - [Stephen Rees-Carter](http://stephen.rees-carter.net/tag/laravel)
 - [Steve Azzopardi](https://medium.com/@steveazz) \[04/05/2016\]
 - [Steven Maguire](https://stevenmaguire.com/publications/) \[11/19/2016\]
@@ -1055,6 +1086,7 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [docker-laravel](https://github.com/mtmacdonald/docker-laravel) - A Ubuntu [LEMP](https://lemp.io/) [Docker](https://www.docker.com/) base image for Laravel development loosely based on [Phusion Base Image](https://github.com/phusion/baseimage-docker). \[06/01/2015\]
 - [docker-laravel](https://github.com/harshjv/docker-laravel) - Laravel 5 environment built on Docker with PHP-FPM, MySQL, nginx, and Gulp managed using [Docker Compose](https://github.com/docker/compose). \[05/17/2016\]
 - [docker-laravel](https://github.com/richbayliss/docker-laravel) - A set of docker-compose files for running a Laravel PHP application in Docker. \[02/06/2017\]
+- [docker-laravel](https://github.com/ucan-lab/docker-laravel) - Build laravel development environment with docker-compose. \[05/09/2020\]
 - [LaraBug](https://www.larabug.com/) - Online error reporting tool for Laravel (limited free plan available). \[12/16/2016\]
 - [LaraDock](https://github.com/LaraDock/laradock) - Complete, very well documented toolkit for setting up Homestead-like Laravel development environment using Docker. \[04/12/2016\]
 - [Laragen](http://makzumi.com/laragen/) - Online tool for generating Laravel views for *index*, *create*, and *edit*, based on your model definition.
@@ -1086,5 +1118,4 @@ A curated list of delightful [Laravel](http://laravel.com/) PHP framework [packa
 - [My Pinboard Links for Laravel](https://pinboard.in/u:tdjones/t:laravel/)
 - Another [Awesome Laravel List](https://github.com/chiraggude/awesome-laravel) :)
 - Another [Awesome Laravel List](https://github.com/tuwannu/awesome-laravel)
-- [TinyLara](http://tinylara.com/) - A simple framework based on the principles of Laravel ("Tiny Laravel"). \[04/22/2015\]
 - [We Made the Front Page of PHP Reddit!  Thanks!](https://www.reddit.com/r/PHP/comments/5xaa6g/a_curated_list_of_delightful_laravel_php/) \[03/06/2017\]
